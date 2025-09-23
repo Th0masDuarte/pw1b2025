@@ -11,7 +11,9 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            
+            display:flex ;
+            justify-content: center;
+            align-items: center;
         }
         table{
             background-color: #ffff00;
@@ -19,7 +21,8 @@
             padding-left: 25px;
             padding-right: 25px;
             padding-top: 10px;
-        }
+           
+        }   
         th,td{
             font-size: 45pt;
             padding-top: 10px;
@@ -27,15 +30,26 @@
             padding-right: 20px;
             padding-left: 20px;
             text-align: center;
+            
         }
         td{
             border: 1px solid black;
             border-radius: 15px;
-           
+            height: 50px;
+            
         }
         th{
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
+        .coringa{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            padding: 0;
+            height: 100px;
+        }
+
         
     </style>
 </head>
@@ -68,7 +82,8 @@
                 <tr>
                     <td>1</td><!--Coluna B-->
                     <td>16</td><!--Coluna I-->
-                    <td><img src="imagens/corinthians.jpg" width="60" height="70"> </td><!--Coluna N-->
+                  <div class="coringa">
+                        <td><img src="imagens/corinthians.jpg" width="60" height="70"> </td></div><!--Coluna N-->
                     <td>46</td><!--Coluna G-->
                     <td>74</td><!--Coluna O-->
                 </tr> 
