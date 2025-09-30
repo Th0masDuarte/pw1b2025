@@ -1,6 +1,81 @@
 .card{
     border: 1px solid black;
-    background-color: yellow;
+    background-color: white;
     width: 268px;
     height: 474px;
+    display: block;
+}
+.card-star{
+display: flex;
+justify-content: end;
+}
+.card-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frete{
+    justify-content: start;
+    color: white;
+    background-color: green ;
+    width: 30%;
+    border-radius: 10%;
+    font-size: smaller;
+    margin-left: 10px;
+}
+.card-description{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    font-size: large;
+}
+.card-desconto{
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.desconto{
+    text-decoration: line-through;
+    opacity: 70%;
+}
+.card-price{
+    display: flex;
+    font-size: larger;
+    justify-content: space-around;
+    color: orangered;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
+}
+.porcento{
+    background-color: orangered;
+    border-radius: 10%;
+    justify-content: end;
+    display: flex;
+    color: white;
+}
+.card-parcelamento{
+    opacity: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-buttom-buy{
+height: 30px;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+.button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    
+    
+    
+    
 }
