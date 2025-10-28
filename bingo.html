@@ -103,5 +103,30 @@
                 </tr> 
             </tbody>
     </table>
+    <script>
+    var b = []
+    var i = []
+    var n = []
+    var g = []
+    var o = []
+    for(var i = 31; i< 46; i++)
+        {
+            n.push(i)
+        }
+        document.write(n)
+function NumeroAleatorio(numeroMinimo,numeroMaximo){
+    var retorno =Math.random()
+    retorno=(retorno*numeroMaximo)
+    retorno=Math.floor(retorno)
+    if(retorno>=numeroMinimo)
+{
+    return retorno
+}else{
+    return NumeroAleatorio(numeroMinimo,numeroMaximo)
+}
+    return retorno()
+}
+document.write("<h1>"+NumeroAleatorio(10)+"<h1>")
+        </script>
 </body>
 </html>
